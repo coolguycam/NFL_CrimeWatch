@@ -1,22 +1,23 @@
 {
-    "name": "nfl-crime",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kevnfu/nfl-crime.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/kevnfu/nfl-crime/issues"
-    },
-    "homepage": "https://github.com/kevnfu/nfl-crime#readme",
-    "dependencies": {
-      "express": "^4.16.3"
-    }
+  "name": "nfl-crime",
+  "version": "1.0.0",
+  "description": "**Deployed on heroku (https://evening-temple-71598.herokuapp.com/), as Github Pages does not support HTTP which is used within the NFL Crime Data API**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevnfu/nfl-crime.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevnfu/nfl-crime/issues"
+  },
+  "homepage": "https://github.com/kevnfu/nfl-crime#readme",
+  "dependencies": {
+    "express": "^4.16.3"
   }
+}
